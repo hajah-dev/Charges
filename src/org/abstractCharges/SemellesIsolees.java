@@ -22,7 +22,7 @@ public class SemellesIsolees extends PorteursFactory{
             default: throw new IllegalArgumentException("Porteurs introuvable");
         }
         porteurs.chargesAppliquees();
-        porteurs.roles("Murs de soutenement -> Support charges verticales et poussée des terres");
+        porteurs.roles("Semelles isolees -> Support charges verticales et surcharges des vents");
         return porteurs;
     }
 }
